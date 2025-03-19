@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+header{
+  background-color: rgba(243, 215, 183, 1);
+}
+.header-wrapper {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 27px;
+}
+.header-wrapper ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.header-wrapper ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+font-weight: 700;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: rgba(51, 51, 51, 1);
+
+}
+.section-wrapper {
+    display: flex;
+    justify-content: center;
+   padding-top: 100px;
+   background-color: rgba(243, 215, 183, 1);
+   height: 850px;
+
+}
+.section-wrapper h1 {
+    font-family: sans-serif;
+font-weight: 700;
+font-size: 64px;
+line-height: 100%;
+letter-spacing: 0px;
+padding-top: 100px;
+}
+.section-wrapper p{
+    font-family: sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+color:rgba(0, 0, 0, 1);
+padding-top: 47px;
+
+}
+.section-wrapper button {
+    width: 193px;
+height: 51px;
+border-radius: 100px;
+padding-top: 16px;
+padding-right: 24px;
+padding-bottom: 16px;
+padding-left: 24px;
+gap: 10px;
+border: none;
+background-color: rgba(10, 119, 95, 1);
+color: rgba(255, 255, 255, 1);
+margin-top: 47px;
+}
+.anime {
+    position: relative;
+}
+.logo {
+animation: logo 2s linear infinite;
+position: absolute;
+left: -10px;
+top: -10px;
+}
+@keyframes logo {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.coffee {
+    padding-top:100px ;
+    padding-left: 50px;
+}
+.first-side {
+     padding-left: 50px;
+}
+.section-second {
+    padding-top: 107px;
+}
+.section-second h1 {
+    font-family: sans-serif;
+font-weight: 700;
+font-size: 50px;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: center;
+font-variant: small-caps;
+}
+.box {
+     display: flex;
+     align-items: center;
+     padding-left: 163px;
+     padding-top: 42px;
+}
+.box h3 {
+    font-family: sans-serif;
+font-weight: 500;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0px;
+font-variant: small-caps;
+color: rgba(51, 51, 51, 1);
+
+}
+.box p {
+    font-family: sans-serif;
+font-weight: 400;
+font-size: 22px;
+line-height: 34px;
+letter-spacing: 0px;
+color: rgba(51, 51, 51, 1);
+width: 454px;
+height: 68px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+    padding-left: 42px;
+    background-color: rgba(243, 215, 183, 1);
+
+}
+.footer ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 1440px;
+height: 160px;
+
+
+}
+.footer ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+font-weight: 700;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: rgba(51, 51, 51, 1);
+
+}
+.footer div {
+    display: flex;
+    gap: 30px;
+}
+.section-wrapper-1 {
+    display: flex;
+    justify-content: center;
+   padding-top: 100px;
+   background-color: rgba(243, 215, 183, 1);
+  
+  
+}
+.section-second-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 160px;
+}
+.section-second-2 div {
+    width: 646px;
+    height: 207px;
+}
+.section-second-2 h1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    font-variant: small-caps;
+}
+.section-second-2 p {
+    font-family: sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0px;
+padding-top: 64px;
+}
+.section-third  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.their {
+    background-color: rgba(201, 155, 103, 1);
+    margin-top: 89px;
+}
+.their img {
+ padding-bottom: 198px;
+}
